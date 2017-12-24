@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{9A0181A6-24AA-4736-935F-3B0996C4B2F4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Libraries/MathEx/src/MathEx.cs">
+    <Files>
+      <File FileName="Libraries/MathEx/src/svec3.cs" Line="1" Column="7" />
+      <File FileName="Libraries/MathEx/MathEx.csproj" Line="56" Column="49" />
+      <File FileName="Libraries/MathEx/src/color.cs" Line="1" Column="7" />
+      <File FileName="Libraries/UnityEngineEx/UnityEngineEx.csproj" Line="13" Column="39" />
+      <File FileName="Libraries/SystemEx/SystemEx.csproj" Line="35" Column="1" />
+      <File FileName="Libraries/MathEx/MathEx.UnityEditor.csproj" Line="38" Column="64" />
+      <File FileName="Libraries/MathEx/MathEx.UnityEngine.csproj" Line="38" Column="40" />
+      <File FileName="Libraries/ProcGenEx/ProcGenEx.csproj" Line="13" Column="39" />
+      <File FileName="Libraries/UnityDissolve/UnityDissolve.csproj" Line="21" Column="40" />
+      <File FileName="Libraries/UnityDissolve/UnityDissolve.Editor.csproj" Line="55" Column="14" />
+      <File FileName="Libraries/UnityDissolve/UnityDissolve.Test.csproj" Line="58" Column="24" />
+      <File FileName="Libraries/UnityEngineEx/UnityEditorEx.csproj" Line="13" Column="39" />
+      <File FileName="Libraries/MathEx/MathEx.Test.csproj" Line="44" Column="40" />
+      <File FileName="Libraries/MathEx/src.UnityEngine/VectorEx.cs" Line="487" Column="10" />
+      <File FileName="Libraries/MathEx/src/vecEx.cs" Line="1" Column="1" />
+      <File FileName="Libraries/MathEx/src/MathEx.cs" Line="58" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release Unity" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MathEx.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
