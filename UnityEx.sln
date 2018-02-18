@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemEx", "Libraries\SystemEx\SystemEx.csproj", "{0271E27F-E614-4B0F-AF16-05D2D2781B7F}"
 EndProject
@@ -24,6 +24,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditorEx", "Libraries\UnityEngineEx\UnityEditorEx.csproj", "{0E848885-8D82-42A3-8AC7-4057DED4213D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngineEx", "Libraries\UnityEngineEx\UnityEngineEx.csproj", "{E323793C-989D-4E1E-8F78-96C6D5ED6CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEx", "UnityEx\UnityEx.csproj", "{2A30F1AB-7121-487A-9003-14C1EC6683D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -489,6 +491,46 @@ Global
 		{E323793C-989D-4E1E-8F78-96C6D5ED6CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E323793C-989D-4E1E-8F78-96C6D5ED6CAA}.Release|x64.ActiveCfg = Release|Any CPU
 		{E323793C-989D-4E1E-8F78-96C6D5ED6CAA}.Release|x64.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 3.5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 3.5|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 3.5|x64.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 3.5|x64.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 4.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 4.0|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 4.0|x64.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Net 4.0|x64.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity Net 3.5|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity Net 3.5|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity Net 3.5|x64.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity Net 3.5|x64.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity|x64.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug Unity|x64.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Debug|x64.Build.0 = Debug|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 3.5|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 3.5|Any CPU.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 3.5|x64.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 3.5|x64.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 4.0|Any CPU.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 4.0|x64.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Net 4.0|x64.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity Net 3.5|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity Net 3.5|Any CPU.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity Net 3.5|x64.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity Net 3.5|x64.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity|Any CPU.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity|x64.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release Unity|x64.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{2A30F1AB-7121-487A-9003-14C1EC6683D4}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

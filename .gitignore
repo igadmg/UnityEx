@@ -1,4 +1,6 @@
 /.vs
 /bin
 /packages
+UnityEx/bin
+UnityEx/obj
 .DS_Store
