@@ -40,7 +40,7 @@ namespace UnityEditorEx
 				}
 				if (settings == null)
 				{
-					settings = ScriptableObject.CreateInstance<UnityExSettings>();
+					settings = CreateInstance<UnityExSettings>();
 					settings.hideFlags = HideFlags.DontSave;
 					settings.name = "UnityEx Settings";
 					InternalEditorUtility.SaveToSerializedFileAndForget(new UnityEngine.Object[1] { settings }, m_SettingsPath, true);
@@ -51,6 +51,12 @@ namespace UnityEditorEx
 
 			bool bIsDirty = false;
 			EditorGUILayout.Space();
+
+			GUILayout.Label("Project namespace:", EditorStyles.boldLabel);
+			using (EditorGUIEx.ChangeCheck(() => UnityEditorExSettings.instance.Save()))
+			{
+				UnityEditorExSettings.instance.namespaceName = EditorGUILayout.TextField(UnityEditorExSettings.instance.namespaceName);
+			}
 
 			GUILayout.Label("UnityEx solution path:", EditorStyles.boldLabel);
 			using (EditorGUIEx.ChangeCheck(() => bIsDirty = true))
@@ -71,8 +77,12 @@ namespace UnityEditorEx
 						if (file.EndsWith("dll") || file.EndsWith("pdb"))
 						{
 							string fileName = Path.GetFileName(file);
-							File.Copy(file, Path.Combine(m_UnityEngineAssembliesPath, fileName), true);
-							EditorProgressBar.ShowProgressBar("Importing {0}...".format(fileName), 0);
+							string destFile = Path.Combine(m_UnityEngineAssembliesPath, fileName);
+							if (File.GetLastWriteTime(file) != File.GetLastWriteTime(destFile))
+							{
+								File.Copy(file, destFile, true);
+								EditorProgressBar.ShowProgressBar("Importing {0}...".format(fileName), 1);
+							}
 						}
 					}
 
@@ -81,8 +91,12 @@ namespace UnityEditorEx
 						if (file.EndsWith("dll") || file.EndsWith("pdb"))
 						{
 							string fileName = Path.GetFileName(file);
-							File.Copy(file, Path.Combine(m_UnityEditorAssembliesPath, fileName), true);
-							EditorProgressBar.ShowProgressBar("Importing {0}...".format(fileName), 0);
+							string destFile = Path.Combine(m_UnityEditorAssembliesPath, fileName);
+							if (File.GetLastWriteTime(file) != File.GetLastWriteTime(destFile))
+							{
+								File.Copy(file, destFile, true);
+								EditorProgressBar.ShowProgressBar("Importing {0}...".format(fileName), 1);
+							}
 						}
 					}
 
