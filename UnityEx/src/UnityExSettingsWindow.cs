@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Reflection;
 using SystemEx;
 using UnityEditor;
 using UnityEditorInternal;
@@ -43,6 +44,7 @@ namespace UnityEditorEx
 					settings = CreateInstance<UnityExSettings>();
 					settings.hideFlags = HideFlags.DontSave;
 					settings.name = "UnityEx Settings";
+					settings.buildName = "Release";
 					InternalEditorUtility.SaveToSerializedFileAndForget(new UnityEngine.Object[1] { settings }, m_SettingsPath, true);
 				}
 
@@ -66,6 +68,16 @@ namespace UnityEditorEx
 			if (bIsDirty)
 			{
 				CheckPaths();
+			}
+
+			if (EditorGUILayout.DropdownButton(new GUIContent(settings.buildName), FocusType.Keyboard))
+			{
+				GenericMenu menu = new GenericMenu();
+
+				menu.AddItem(new GUIContent("Release"), settings.buildName == "Release", () => { settings.buildName = "Release"; bIsDirty = true; CheckPaths(); });
+				menu.AddItem(new GUIContent("Debug"), settings.buildName == "Debug", () => { settings.buildName = "Debug"; bIsDirty = true; CheckPaths(); });
+
+				menu.DropDown(EditorGUILayoutEx.GetLastRect());
 			}
 
 			using (EditorGUIEx.DisabledScopeIf(!m_CanImport))
@@ -113,10 +125,12 @@ namespace UnityEditorEx
 
 		protected void CheckPaths()
 		{
+			string buildName = string.IsNullOrEmpty(settings.buildName) ? "Release" : settings.buildName;
+
 			if (!string.IsNullOrEmpty(settings.solutionPath))
 			{
-				m_UnityEngineBuildPath = Path.Combine(settings.solutionPath, "bin//Release.UnityEx//Assemblies");
-				m_UnityEditorBuildPath = Path.Combine(settings.solutionPath, "bin//Release.UnityEx//Editor//Assemblies");
+				m_UnityEngineBuildPath = Path.Combine(settings.solutionPath, "bin//{0}.UnityEx//Assemblies".format(buildName));
+				m_UnityEditorBuildPath = Path.Combine(settings.solutionPath, "bin//{0}.UnityEx//Editor//Assemblies".format(buildName));
 
 				m_CanImport = Directory.Exists(m_UnityEngineBuildPath) && Directory.Exists(m_UnityEditorBuildPath);
 			}
