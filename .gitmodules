@@ -13,3 +13,9 @@
 [submodule "Libraries/UnityEngineEx"]
 	path = Libraries/UnityEngineEx
 	url = git@github.com:yatagarasu25/UnityEngineEx.git
+[submodule "Libraries/DOTween"]
+	path = Libraries/DOTween
+	url = git@github.com:yatagarasu25/dotween.git
+[submodule "Libraries/DOTweenEx"]
+	path = Libraries/DOTweenEx
+	url = git@github.com:yatagarasu25/DOTweenEx.git
