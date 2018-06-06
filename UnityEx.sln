@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemEx", "Libraries\SystemEx\SystemEx.csproj", "{0271E27F-E614-4B0F-AF16-05D2D2781B7F}"
 EndProject
@@ -83,12 +83,12 @@ Global
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity Net 3.5|Any CPU.Build.0 = Debug Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity Net 3.5|x64.ActiveCfg = Debug Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity Net 3.5|x64.Build.0 = Debug Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|Any CPU.ActiveCfg = Debug Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|Any CPU.Build.0 = Debug Unity Net 3.5|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|Any CPU.ActiveCfg = Debug Unity|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|Any CPU.Build.0 = Debug Unity|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|x64.ActiveCfg = Debug Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug Unity|x64.Build.0 = Debug Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|Any CPU.ActiveCfg = Debug Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|Any CPU.Build.0 = Debug Unity Net 3.5|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|Any CPU.ActiveCfg = Debug Unity|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|Any CPU.Build.0 = Debug Unity|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|x64.ActiveCfg = Debug Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Debug|x64.Build.0 = Debug Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Net 3.5|Any CPU.ActiveCfg = Release Net 3.5|Any CPU
@@ -103,8 +103,8 @@ Global
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity Net 3.5|Any CPU.Build.0 = Release Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity Net 3.5|x64.ActiveCfg = Release Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity Net 3.5|x64.Build.0 = Release Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|Any CPU.ActiveCfg = Release Unity Net 3.5|Any CPU
-		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|Any CPU.Build.0 = Release Unity Net 3.5|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|Any CPU.ActiveCfg = Release Unity|Any CPU
+		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|Any CPU.Build.0 = Release Unity|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|x64.ActiveCfg = Release Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release Unity|x64.Build.0 = Release Unity Net 3.5|Any CPU
 		{0271E27F-E614-4B0F-AF16-05D2D2781B7F}.Release|Any CPU.ActiveCfg = Release Unity Net 3.5|Any CPU
