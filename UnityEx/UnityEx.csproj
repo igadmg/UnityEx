@@ -68,17 +68,17 @@
     <Compile Include="src\UnityExSettingsWindow.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(SolutionDir)Libraries\SystemEx\SystemEx.csproj">
+    <ProjectReference Include="$(SolutionDir)\Libraries\SystemEx\SystemEx.csproj">
       <Project>{0271e27f-e614-4b0f-af16-05d2d2781b7f}</Project>
       <Name>SystemEx</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)Libraries\UnityEngineEx\UnityEditorEx.csproj">
+    <ProjectReference Include="$(SolutionDir)\Libraries\UnityEngineEx\UnityEditorEx.csproj">
       <Project>{0e848885-8d82-42a3-8ac7-4057ded4213d}</Project>
       <Name>UnityEditorEx</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)Libraries\UnityEngineEx\UnityEngineEx.csproj">
+    <ProjectReference Include="$(SolutionDir)\Libraries\UnityEngineEx\UnityEngineEx.csproj">
       <Project>{e323793c-989d-4e1e-8f78-96c6d5ed6caa}</Project>
       <Name>UnityEngineEx</Name>
       <Private>False</Private>
