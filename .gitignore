@@ -2,6 +2,7 @@
 /.vscode
 /bin
 /packages
+obj
 UnityEx/bin
 UnityEx/obj
 .DS_Store
