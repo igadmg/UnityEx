@@ -1,6 +1,0 @@
-D:\workspace\UnityEx\bin\Release.UnityEx\Assemblies\System.Text.Json.dll
-D:\workspace\UnityEx\bin\Release.UnityEx\Assemblies\System.Text.Json.pdb
-D:\workspace\UnityEx\Libraries\System.Text.Json\obj\Release\System.Text.Json.dll
-D:\workspace\UnityEx\Libraries\System.Text.Json\obj\Release\System.Text.Json.pdb
-D:\workspace\UnityEx\Libraries\System.Text.Json\obj\Release\System.Text.Json.csprojAssemblyReference.cache
-D:\workspace\UnityEx\Libraries\System.Text.Json\obj\Release\System.Text.Json.csproj.CoreCompileInputs.cache

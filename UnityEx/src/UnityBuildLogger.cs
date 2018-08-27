@@ -1,12 +1,14 @@
+#if false
 using Microsoft.Build.Framework;
 using Microsoft.Build.Utilities;
 using UnityEngine;
-
+#endif
 
 
 namespace UnityEditorEx
 {
-    // This logger will derive from the Microsoft.Build.Utilities.Logger class,
+#if false
+	// This logger will derive from the Microsoft.Build.Utilities.Logger class,
 	// which provides it with getters and setters for Verbosity and Parameters,
 	// and a default empty Shutdown() implementation.
 	public class UnityBuildLogger : Microsoft.Build.Utilities.Logger
@@ -64,4 +66,5 @@ namespace UnityEditorEx
 			Debug.LogFormat("{0}: {1}: {2}", e.SenderName, e.Message, e.ProjectFile);
 		}
 	}
+#endif
 }

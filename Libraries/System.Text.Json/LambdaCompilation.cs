@@ -109,7 +109,7 @@ namespace System.Text.Json.JsonPath.LambdaCompilation
         {
             this.Index += this.Length;
             this.Length = 1;
-            bool result;
+            bool result = false;
             if (this.Index == this.Content.Length)
             {
                 this.Index = 0;
