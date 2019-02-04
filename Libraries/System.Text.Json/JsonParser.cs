@@ -1445,7 +1445,7 @@ namespace System.Text.Json.JsonPath // ( See http://goessner.net/articles/JsonPa
         JsonPathNode[] SelectNodes(string expression);
     }
 
-    [Serializable]
+    [System.Serializable]
     public sealed class JsonPathNode
     {
         private readonly object value;

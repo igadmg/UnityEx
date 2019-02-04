@@ -1,6 +1,5 @@
 using System;
 using System.IO;
-using Microsoft.Build.BuildEngine;
 using UnityEditor;
 using UnityEngine;
 
@@ -8,7 +7,8 @@ using UnityEngine;
 
 namespace UnityEditorEx
 {
-    public class UnityExBuild
+#if false
+	public class UnityExBuild
     {
         public static void Build(string solutionName)
         {
@@ -33,4 +33,5 @@ namespace UnityEditorEx
             }
         }
     }
+#endif
 }

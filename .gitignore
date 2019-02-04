@@ -1,8 +1,10 @@
 /.vs
 /.vscode
 /bin
+/bin.meta
 /packages
 obj
+obj.meta
 UnityEx/bin
 UnityEx/obj
 .DS_Store

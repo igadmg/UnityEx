@@ -1,0 +1,28 @@
+{
+    "name": "2a30f1ab-7121-487a-9003-14c1ec6683d4",
+    "references": [],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "Editor",
+        "iOS",
+        "LinuxStandalone32",
+        "LinuxStandalone64",
+        "LinuxStandaloneUniversal",
+        "macOSStandalone",
+        "Nintendo3DS",
+        "PS4",
+        "PSVita",
+        "Switch",
+        "tvOS",
+        "WSA",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64",
+        "XboxOne"
+    ],
+    "allowUnsafeCode": false
+}
