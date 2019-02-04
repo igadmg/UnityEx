@@ -60,6 +60,12 @@ namespace UnityEditorEx
 				UnityEditorExSettings.instance.namespaceName = EditorGUILayout.TextField(UnityEditorExSettings.instance.namespaceName);
 			}
 
+			GUILayout.Label("Project editor source path:", EditorStyles.boldLabel);
+			using (EditorGUIEx.ChangeCheck(() => UnityEditorExSettings.instance.Save()))
+			{
+				UnityEditorExSettings.instance.editorScriptsPath = EditorGUILayout.TextField(UnityEditorExSettings.instance.editorScriptsPath);
+			}
+
 			GUILayout.Label("UnityEx solution path:", EditorStyles.boldLabel);
 			using (EditorGUIEx.ChangeCheck(() => bIsDirty = true))
 			{
