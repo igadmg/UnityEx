@@ -1,5 +1,32 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
-    <PropertyGroup>  
-        <UNITYEDITORDATA_PATH Condition=" '$(UNITYEDITORDATA_PATH)' == '' ">C:\Program Files\Unity\Hub\Editor\2018.3.2f1\Editor\Data</UNITYEDITORDATA_PATH>  
-    </PropertyGroup>  
-</Project>  
+
+  <PropertyGroup>  
+    <UNITYASSETS_PATH>$(SolutionDir)\..\..\Assets</UNITYASSETS_PATH>
+    <UnityEngineDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</UnityEngineDll>
+    <UnityEngineCoreModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</UnityEngineCoreModuleDll>
+    <UnityEngineAnimationModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</UnityEngineAnimationModuleDll>
+    <UnityEngineImageConversionModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</UnityEngineImageConversionModuleDll>
+    <UnityEngineIMGUIModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</UnityEngineIMGUIModuleDll>
+    <UnityEnginePhysicsModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</UnityEnginePhysicsModuleDll>
+    <UnityEngineTextRenderingModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</UnityEngineTextRenderingModuleDll>
+    <UnityEngineUIModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</UnityEngineUIModuleDll>
+    <UnityEngineUiDll>$(SolutionDir)\..\..\Library\ScriptAssemblies\UnityEngine.UI.dll</UnityEngineUiDll>
+    <UnityEditorDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</UnityEditorDll>
+    <UnityEditorGraphsDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</UnityEditorGraphsDll>
+  </PropertyGroup>  
+
+  <PropertyGroup>
+    <IntermediateOutputPath>$(SolutionDir)obj\$(Configuration)\$(MSBuildProjectName)</IntermediateOutputPath>
+    <OutputPath>$(SolutionDir)bin\$(Configuration)\$(MSBuildProjectName)</OutputPath>
+    <DefineConstants>UNITY</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+    <None Remove="*.meta" />
+    <None Remove="**\*.meta" />
+  </ItemGroup>
+
+</Project>
