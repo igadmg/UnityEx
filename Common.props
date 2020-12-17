@@ -2,20 +2,27 @@
 
   <PropertyGroup>  
     <UNITYASSETS_PATH>$(SolutionDir)\..\..\Assets</UNITYASSETS_PATH>
-    <UnityEngineDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</UnityEngineDll>
-    <UnityEngineCoreModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</UnityEngineCoreModuleDll>
-    <UnityEngineAnimationModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</UnityEngineAnimationModuleDll>
-    <UnityEngineImageConversionModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</UnityEngineImageConversionModuleDll>
-    <UnityEngineIMGUIModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</UnityEngineIMGUIModuleDll>
-    <UnityEnginePhysicsModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</UnityEnginePhysicsModuleDll>
-    <UnityEngineTextRenderingModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</UnityEngineTextRenderingModuleDll>
-    <UnityEngineUIModuleDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</UnityEngineUIModuleDll>
-    <UnityEngineUiDll>$(SolutionDir)\..\..\Library\ScriptAssemblies\UnityEngine.UI.dll</UnityEngineUiDll>
-    <UnityEditorDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</UnityEditorDll>
-    <UnityEditorGraphsDll>C:\Program Files\Unity\Hub\Editor\2019.3.8f1\Editor\Data\Managed\UnityEditor.Graphs.dll</UnityEditorGraphsDll>
+    <UnityPath>E:\System\Hub\Editor\2020.1.12f1\Editor</UnityPath>
+    <UnityManagedPath>$(UnityPath)\Data\Managed</UnityManagedPath>
+    <UnityProjectTemplatesPath>$(UnityPath)\Data\Resources\PackageManager\ProjectTemplates</UnityProjectTemplatesPath>
+    <UnityEngineDll>$(UnityManagedPath)\UnityEngine\UnityEngine.dll</UnityEngineDll>
+    <UnityEngineCoreModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.CoreModule.dll</UnityEngineCoreModuleDll>
+    <UnityEngineAnimationModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.AnimationModule.dll</UnityEngineAnimationModuleDll>
+    <UnityEngineImageConversionModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.ImageConversionModule.dll</UnityEngineImageConversionModuleDll>
+    <UnityEngineIMGUIModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.IMGUIModule.dll</UnityEngineIMGUIModuleDll>
+    <UnityEnginePhysicsModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.PhysicsModule.dll</UnityEnginePhysicsModuleDll>
+    <UnityEngineTextRenderingModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.TextRenderingModule.dll</UnityEngineTextRenderingModuleDll>
+    <UnityEngineUIModuleDll>$(UnityManagedPath)\UnityEngine\UnityEngine.UIModule.dll</UnityEngineUIModuleDll>
+<!--    <UnityEngineUiDll>$(SolutionDir)\..\..\Library\ScriptAssemblies\UnityEngine.UI.dll</UnityEngineUiDll>-->
+    <UnityEngineUiDll>$(UnityProjectTemplatesPath)\libcache\com.unity.template.2d-4.0.3\ScriptAssemblies\UnityEngine.UI.dll</UnityEngineUiDll>
+    <UnityEditorDll>$(UnityManagedPath)\UnityEngine\UnityEditor.dll</UnityEditorDll>
+    <UnityEditorGraphsDll>$(UnityManagedPath)\UnityEditor.Graphs.dll</UnityEditorGraphsDll>
   </PropertyGroup>  
 
   <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
     <IntermediateOutputPath>$(SolutionDir)obj\$(Configuration)\$(MSBuildProjectName)</IntermediateOutputPath>
     <OutputPath>$(SolutionDir)bin\$(Configuration)\$(MSBuildProjectName)</OutputPath>
     <DefineConstants>UNITY</DefineConstants>

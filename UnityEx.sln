@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystemEx", "Libraries\Syste
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathEx", "Libraries\MathEx\MathEx.csproj", "{8D8A06E5-ABFB-49A8-851A-070FCF5339AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathEx.Test", "Libraries\MathEx\MathEx.Test.csproj", "{9A0181A6-24AA-4736-935F-3B0996C4B2F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathEx.Test", "Libraries\MathEx.Test\MathEx.Test.csproj", "{9A0181A6-24AA-4736-935F-3B0996C4B2F4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MathEx.UnityEditor", "Libraries\MathEx\MathEx.UnityEditor.csproj", "{9C881F96-03F5-4D67-A9B3-55D8D42B27F4}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityDissolve", "Libraries\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityDissolve.Editor", "Libraries\UnityDissolve\UnityDissolve.Editor.csproj", "{DB11460F-9B28-4775-A1CC-348504748721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDissolve.Test", "Libraries\UnityDissolve\UnityDissolve.Test.csproj", "{2F45F9AB-207A-4E8B-AFFC-FE04BB47D9F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDissolve.Test", "Libraries\UnityDissolve.Test\UnityDissolve.Test.csproj", "{2F45F9AB-207A-4E8B-AFFC-FE04BB47D9F6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcGenEx", "Libraries\ProcGenEx\ProcGenEx.csproj", "{54B51CA7-9E90-4961-A5A9-FD7173DE43C8}"
 EndProject
