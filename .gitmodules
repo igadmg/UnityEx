@@ -19,6 +19,3 @@
 [submodule "Libraries/DOTweenEx"]
 	path = Libraries/DOTweenEx
 	url = git@github.com:yatagarasu25/DOTweenEx.git
-[submodule "Libraries/DotNetZip"]
-	path = Libraries/DotNetZip
-	url = git@github.com:yatagarasu25/dotnetzip-for-unity.git
