@@ -10,6 +10,7 @@ namespace ProcGenEx.Test
 		public MeshFilter meshFilter;
 
 		public bool IsSimple = true;
+		public bool IsSphere = false;
 		public int Subdivisions = 0;
 		public int Steps = 1;
 
@@ -27,20 +28,14 @@ namespace ProcGenEx.Test
 				mb.Subdivide(Steps);
 			}
 
+			if (IsSphere)
+			{
+				mb.Sphere(0.5f);
+			}
+
 			meshFilter.mesh = mb.ToMesh();
+			meshFilter.mesh.RecalculateNormals();
 		}
 #endif
-
-		// Start is called before the first frame update
-		void Start()
-		{
-
-		}
-
-		// Update is called once per frame
-		void Update()
-		{
-
-		}
 	}
 }
