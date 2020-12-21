@@ -15,7 +15,7 @@ namespace ProcGenEx.Test
 		public int Steps = 1;
 
 #if UNITY_EDITOR
-		protected override void OnValidate()
+		public override void OnValidate()
 		{
 			base.OnValidate();
 	
