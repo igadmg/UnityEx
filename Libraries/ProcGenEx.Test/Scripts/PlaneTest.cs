@@ -10,7 +10,6 @@ namespace ProcGenEx.Test
 		public MeshFilter meshFilter;
 
 		public bool IsSimple = true;
-		//public bool IsSphere = false;
 		public int Subdivisions = 0;
 		public int Steps = 1;
 
@@ -28,13 +27,8 @@ namespace ProcGenEx.Test
 				mb.Subdivide(Steps);
 			}
 
-			//if (IsSphere)
-			//{
-			//	mb.Sphere(0.5f);
-			//}
-
-			meshFilter.mesh = mb.ToMesh();
-			meshFilter.mesh.RecalculateNormals();
+			meshFilter.sharedMesh = mb.ToMesh();
+			meshFilter.sharedMesh.RecalculateNormals();
 		}
 #endif
 	}

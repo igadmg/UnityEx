@@ -33,8 +33,8 @@ namespace ProcGenEx.Test
 				mb.Sphere(0.5f);
 			}
 
-			meshFilter.mesh = mb.ToMesh();
-			meshFilter.mesh.RecalculateNormals();
+			meshFilter.sharedMesh = mb.ToMesh();
+			meshFilter.sharedMesh.RecalculateNormals();
 		}
 #endif
 	}
