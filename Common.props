@@ -2,7 +2,7 @@
 
   <PropertyGroup>  
     <UNITYASSETS_PATH>$(SolutionDir)\..\..\Assets</UNITYASSETS_PATH>
-    <UnityPath>E:\System\Hub\Editor\2020.1.12f1\Editor</UnityPath>
+    <UnityPath>E:\System\Hub\Editor\2020.2.2f1\Editor</UnityPath>
     <UnityManagedPath>$(UnityPath)\Data\Managed</UnityManagedPath>
     <UnityProjectTemplatesPath>$(UnityPath)\Data\Resources\PackageManager\ProjectTemplates</UnityProjectTemplatesPath>
     <UnityEngineDll>$(UnityManagedPath)\UnityEngine\UnityEngine.dll</UnityEngineDll>
